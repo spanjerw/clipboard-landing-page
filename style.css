@@ -1,0 +1,68 @@
+/*
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+
+/*
+* BASIC
+* MOBILE
+* DESKTOP
+*/
+
+/* ---------------- BASIC ----------------- */
+
+:root {
+
+
+--StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    font-size: 15px;
+    width: 100vw;
+    height: 100vh;
+}
+   
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-desktop__logo {
+    width: 10px;
+    height: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.header-text {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
